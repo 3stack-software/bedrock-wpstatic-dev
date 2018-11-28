@@ -15,6 +15,6 @@
 ## Access
 1. Now you can go to https://roots-example-project.test/wp/wp-admin/ (creds admin, admin), configure and install latest wordpress-static-html-plugin to test it.
 
-1. You can access the VM machine by running `vagrant ssh`
+2. You SSH into the VM machine by running `vagrant ssh`
 
-2. Files will under the local folder `/site`
+3. Files will be under the local folder `/site`. Wordpress will be installed as part of `vagrant up` provisioning.
